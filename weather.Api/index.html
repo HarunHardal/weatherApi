@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="icons.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <title>WEATHER APP</title>
+</head>
+<body>
+    
+<img src="img/bg1.jpg" alt="" style="width: 500px; height: 700px; object-fit: cover;">
+<div class="container">
+
+    <div class="inputCity">
+        <input type="text" id="input" placeholder="Enter the city">
+        <button type="button" id="button">ENTER</button>
+    </div>
+
+    <div class="weather-container">
+        <div class="city">
+            <span>-</span> <span class="country"></span>
+        </div>
+        <br>
+        <div class="temp">
+            <p id="tempResult">-℃</p>
+        </div>
+        
+        <div class="weatherIcon">
+        <span>
+            
+        </span>
+        </div>
+
+        <div class="weatherText">
+            <p id="weatherTextId"></p>
+        </div>
+
+        <div class="bar">
+            
+            <div class="bar1"> 
+                <img src="img/wind1.png" class="miniIcon" >  <p id="wind">0</p>
+            </div>
+            
+
+                <div class="bar2">
+                    <img src="img/moisture.png" class="miniIcon" ><p id="humidity">%0</p>
+                </div>
+
+        </div>
+    </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
